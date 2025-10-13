@@ -109,9 +109,6 @@ Comprehensive feature selection using multiple techniques to identify the most r
 | **CNN** | 0.7558 | 0.6647 | 1D convolutions for tabular data |
 | **Deep MLP** | 0.7129 | 0.6175 | 5-layer perceptron with batch normalization |
 | **ANN** | 0.7459 | 0.6477 | 4-layer neural network |
-| **Bi-LSTM** | 0.6799 | 0.5942 | Bidirectional LSTM for sequential patterns |
-| **GRU** | 0.7129 | 0.6715 | Gated Recurrent Unit |
-| **TabTransformer** | 0.7558 | 0.6640 | Transformer architecture for tabular data |
 | **PyTorch Neural Network** | 0.7558 | 0.6640 | Custom neural network with MPS support |
 
 ### Advanced Tabular Models
