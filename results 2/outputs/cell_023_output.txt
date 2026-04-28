@@ -1,0 +1,23 @@
+--- STDOUT ---
+============================================================
+METHOD 3: SELECTKBEST WITH ANOVA F-VALUE
+============================================================
+Selected features by ANOVA F-value (top 10): 10
+Features: ['remainder__x3', 'remainder__x4', 'remainder__x5', 'remainder__x6', 'remainder__x7', 'remainder__x9', 'remainder__x10', 'remainder__x12', 'remainder__x16', 'remainder__x17']
+
+Top F-values:
+  remainder__x7: F-value = 63.1499 - ✓ Selected
+  remainder__x12: F-value = 60.0702 - ✓ Selected
+  remainder__x5: F-value = 52.0217 - ✓ Selected
+  remainder__x6: F-value = 34.7701 - ✓ Selected
+  remainder__x3: F-value = 29.1518 - ✓ Selected
+  remainder__x17: F-value = 20.5910 - ✓ Selected
+  remainder__x4: F-value = 18.6056 - ✓ Selected
+  remainder__x16: F-value = 17.6706 - ✓ Selected
+  remainder__x9: F-value = 11.1089 - ✓ Selected
+  remainder__x10: F-value = 10.9344 - ✓ Selected
+  remainder__x14: F-value = 9.4327 - ✗ Not selected
+  remainder__x1: F-value = 8.9999 - ✗ Not selected
+  remainder__x11: F-value = 8.3210 - ✗ Not selected
+  remainder__x8: F-value = 8.3024 - ✗ Not selected
+  remainder__x13: F-value = 4.3638 - ✗ Not selected

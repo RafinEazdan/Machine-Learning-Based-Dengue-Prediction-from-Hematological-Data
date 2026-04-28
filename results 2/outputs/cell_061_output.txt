@@ -1,0 +1,34 @@
+--- STDOUT ---
+Hard Voting - Accuracy: 0.7491749174917491
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.66      0.40      0.50        94
+           1       0.77      0.90      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.71      0.65      0.67       303
+weighted avg       0.74      0.75      0.73       303
+
+
+Soft Voting - Accuracy: 0.7524752475247525
+Soft Voting - ROC-AUC: 0.6546625267229971
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.40      0.50        94
+           1       0.77      0.91      0.84       209
+
+    accuracy                           0.75       303
+   macro avg       0.72      0.66      0.67       303
+weighted avg       0.74      0.75      0.73       303
+
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

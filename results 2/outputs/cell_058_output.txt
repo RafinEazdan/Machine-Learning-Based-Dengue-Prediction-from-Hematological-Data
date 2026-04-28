@@ -1,0 +1,18 @@
+--- STDOUT ---
+Fitting 5 folds for each of 27 candidates, totalling 135 fits
+============================================================
+AdaBoost - Best params: {'estimator': DecisionTreeClassifier(max_depth=3), 'learning_rate': 1.0, 'n_estimators': 200}
+AdaBoost - Best CV ROC-AUC: 0.8428
+AdaBoost - Test accuracy: 0.7393
+AdaBoost - Test ROC-AUC: 0.6677
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.61      0.44      0.51        94
+           1       0.78      0.88      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.66      0.67       303
+weighted avg       0.72      0.74      0.73       303
+

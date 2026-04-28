@@ -1,0 +1,28 @@
+--- STDOUT ---
+============================================================
+STACKING ENSEMBLE MODEL
+============================================================
+Training Stacking Ensemble...
+Stacking Ensemble Results:
+Accuracy: 0.7558
+ROC-AUC: 0.6773
+
+Confusion Matrix:
+[[ 43  51]
+ [ 23 186]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.46      0.54        94
+           1       0.78      0.89      0.83       209
+
+    accuracy                           0.76       303
+   macro avg       0.72      0.67      0.69       303
+weighted avg       0.74      0.76      0.74       303
+
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

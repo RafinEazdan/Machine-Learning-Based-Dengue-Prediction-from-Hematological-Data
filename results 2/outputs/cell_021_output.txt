@@ -1,0 +1,18 @@
+--- STDOUT ---
+============================================================
+METHOD 1: PEARSON CORRELATION ANALYSIS
+============================================================
+Feature correlations with target (sorted by absolute value):
+  remainder__x7: 0.1920
+  remainder__x12: 0.1874
+  remainder__x5: 0.1748
+  remainder__x6: 0.1437
+  remainder__x3: 0.1318
+  remainder__x17: 0.1110
+  remainder__x4: 0.1056
+  remainder__x16: 0.1029
+  remainder__x9: 0.0818
+  remainder__x10: 0.0811
+
+Selected features (correlation >= 0.1): 8
+Features: ['remainder__x7', 'remainder__x12', 'remainder__x5', 'remainder__x6', 'remainder__x3', 'remainder__x17', 'remainder__x4', 'remainder__x16']

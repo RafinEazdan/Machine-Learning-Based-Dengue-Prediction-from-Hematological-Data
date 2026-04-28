@@ -1,0 +1,23 @@
+--- STDOUT ---
+============================================================
+METHOD 2: RECURSIVE FEATURE ELIMINATION (RFE)
+============================================================
+Selected features by RFE (top 10): 10
+Features: ['remainder__x3', 'remainder__x4', 'remainder__x5', 'remainder__x6', 'remainder__x7', 'remainder__x10', 'remainder__x11', 'remainder__x12', 'remainder__x13', 'remainder__x16']
+
+Feature Rankings (1 = most important):
+  remainder__x3: Rank 1 - ✓ Selected
+  remainder__x4: Rank 1 - ✓ Selected
+  remainder__x5: Rank 1 - ✓ Selected
+  remainder__x6: Rank 1 - ✓ Selected
+  remainder__x7: Rank 1 - ✓ Selected
+  remainder__x10: Rank 1 - ✓ Selected
+  remainder__x11: Rank 1 - ✓ Selected
+  remainder__x12: Rank 1 - ✓ Selected
+  remainder__x13: Rank 1 - ✓ Selected
+  remainder__x16: Rank 1 - ✓ Selected
+  remainder__x17: Rank 2 - ✗ Eliminated
+  remainder__x1: Rank 3 - ✗ Eliminated
+  encoder__x0_Male: Rank 4 - ✗ Eliminated
+  remainder__x9: Rank 5 - ✗ Eliminated
+  remainder__x8: Rank 6 - ✗ Eliminated

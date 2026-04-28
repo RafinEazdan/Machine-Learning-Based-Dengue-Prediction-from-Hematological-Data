@@ -1,0 +1,109 @@
+--- STDOUT ---
+
+============================================================
+COMPARISON: BEFORE vs AFTER WINSORIZATION
+============================================================
+
+Age:
+  Before - Mean: 40.381, Std: 15.287, Min: 5.000, Max: 78.000
+  After  - Mean: 40.381, Std: 15.287, Min: 5.000, Max: 78.000
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+Hemoglobin(g/dl):
+  Before - Mean: 14.511, Std: 1.630, Min: 10.400, Max: 17.500
+  After  - Mean: 14.511, Std: 1.630, Min: 10.400, Max: 17.500
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+Neutrophils(%):
+  Before - Mean: 44.508, Std: 4.312, Min: 29.000, Max: 60.000
+  After  - Mean: 44.541, Std: 4.108, Min: 33.000, Max: 57.000
+  Change in Mean: +0.07%
+  Change in Std:  -4.74%
+
+Lymphocytes(%):
+  Before - Mean: 43.578, Std: 4.946, Min: 29.000, Max: 56.000
+  After  - Mean: 43.674, Std: 4.691, Min: 32.000, Max: 56.000
+  Change in Mean: +0.22%
+  Change in Std:  -5.16%
+
+Monocytes(%):
+  Before - Mean: 3.273, Std: 1.212, Min: 2.000, Max: 9.000
+  After  - Mean: 3.259, Std: 1.157, Min: 2.000, Max: 7.000
+  Change in Mean: -0.44%
+  Change in Std:  -4.53%
+
+Eosinophils(%):
+  Before - Mean: 3.082, Std: 0.997, Min: 1.000, Max: 9.000
+  After  - Mean: 3.081, Std: 0.991, Min: 1.000, Max: 7.000
+  Change in Mean: -0.04%
+  Change in Std:  -0.66%
+
+RBC:
+  Before - Mean: 4.761, Std: 0.722, Min: 4.000, Max: 7.000
+  After  - Mean: 4.750, Std: 0.691, Min: 4.000, Max: 6.500
+  Change in Mean: -0.23%
+  Change in Std:  -4.27%
+
+HCT(%):
+  Before - Mean: 45.188, Std: 3.579, Min: 36.300, Max: 51.980
+  After  - Mean: 45.188, Std: 3.579, Min: 36.300, Max: 51.980
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+MCV(fl):
+  Before - Mean: 89.811, Std: 5.523, Min: 80.000, Max: 100.000
+  After  - Mean: 89.811, Std: 5.523, Min: 80.000, Max: 100.000
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+MCH(pg):
+  Before - Mean: 29.899, Std: 2.031, Min: 22.900, Max: 34.000
+  After  - Mean: 29.901, Std: 2.022, Min: 23.900, Max: 34.000
+  Change in Mean: +0.01%
+  Change in Std:  -0.42%
+
+MCHC(g/dl):
+  Before - Mean: 32.058, Std: 1.550, Min: 27.080, Max: 35.000
+  After  - Mean: 32.059, Std: 1.547, Min: 27.450, Max: 35.000
+  Change in Mean: +0.00%
+  Change in Std:  -0.20%
+
+RDW-CV(%):
+  Before - Mean: 13.627, Std: 1.431, Min: 11.000, Max: 21.330
+  After  - Mean: 13.625, Std: 1.422, Min: 11.000, Max: 18.150
+  Change in Mean: -0.02%
+  Change in Std:  -0.63%
+
+Total Platelet Count(/cumm):
+  Before - Mean: 173326.063, Std: 64859.144, Min: 56000.000, Max: 299803.000
+  After  - Mean: 173326.063, Std: 64859.144, Min: 56000.000, Max: 299803.000
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+MPV(fl):
+  Before - Mean: 9.585, Std: 0.849, Min: 7.500, Max: 11.235
+  After  - Mean: 9.585, Std: 0.849, Min: 7.500, Max: 11.235
+  Change in Mean: +0.00%
+  Change in Std:  +0.00%
+
+PDW(%):
+  Before - Mean: 15.315, Std: 1.409, Min: 8.400, Max: 17.990
+  After  - Mean: 15.316, Std: 1.402, Min: 10.928, Max: 17.990
+  Change in Mean: +0.01%
+  Change in Std:  -0.48%
+
+PCT(%):
+  Before - Mean: 0.291, Std: 6.017, Min: 0.000, Max: 234.000
+  After  - Mean: 0.135, Std: 0.050, Min: 0.007, Max: 0.273
+  Change in Mean: -53.52%
+  Change in Std:  -99.17%
+
+Total WBC count(/cumm):
+  Before - Mean: 5485.471, Std: 1139.669, Min: 3500.000, Max: 14900.000
+  After  - Mean: 5451.591, Std: 957.093, Min: 3500.000, Max: 8393.750
+  Change in Mean: -0.62%
+  Change in Std:  -16.02%
+
+Rows retained: 1511 / 1511 (100%)

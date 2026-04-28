@@ -1,0 +1,8 @@
+--- STDOUT ---
+Applying IQR winsorization (capping)...
+Original dataset shape: (1511, 19)
+Dataset shape after winsorization: (1511, 19)
+Rows removed: 0 (all patients retained)
+Total individual values clipped to IQR bounds: 221
+
+Winsorization completed successfully!

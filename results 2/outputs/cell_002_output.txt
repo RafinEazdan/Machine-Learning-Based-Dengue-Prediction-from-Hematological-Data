@@ -1,0 +1,28 @@
+--- RESULT ---
+   Gender  Age  Hemoglobin(g/dl)  Neutrophils(%)  Lymphocytes(%)  \
+0    Male   21              14.8              48              47   
+1    Male   30              15.0              47              49   
+2    Male   51              16.3              41              48   
+3  Female   26              12.3              46              49   
+4    Male   35              16.1              45              46   
+
+   Monocytes(%)  Eosinophils(%)  RBC  HCT(%)  MCV(fl)  MCH(pg)  MCHC(g/dl)  \
+0             3               2    5   48.00     96.0    29.60        30.8   
+1             6               3    5   49.80     96.1    28.40        29.5   
+2             4               5    5   50.10     93.5    31.30        32.7   
+3             7               5    5   44.00     90.0    30.50        30.5   
+4             4               4    5   50.53     91.0    29.12        29.2   
+
+   RDW-CV(%)  Total Platelet Count(/cumm)  MPV(fl)  PDW(%)  PCT(%)  \
+0       11.6                       112000    10.70   15.40   0.120   
+1       11.8                        96000    10.60   15.80   0.121   
+2       13.5                       184000    10.40   16.40   0.130   
+3       14.7                       167000     8.10   17.10   0.110   
+4       15.2                       155000    10.52   12.34   0.150   
+
+   Total WBC count(/cumm)    Result  
+0                    5100  positive  
+1                    4500  positive  
+2                    6000  negative  
+3                    5000  negative  
+4                    4600  negative  

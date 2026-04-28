@@ -1,0 +1,35 @@
+--- STDOUT ---
+============================================================
+ARTIFICIAL NEURAL NETWORK (ANN)
+============================================================
+Using device: cpu
+Training ANN...
+Epoch [50/1000], Loss: 0.3274 (best: 0.3116, no-improve: 4/80)
+Epoch [100/1000], Loss: 0.2432 (best: 0.2402, no-improve: 3/80)
+Epoch [150/1000], Loss: 0.2120 (best: 0.2010, no-improve: 2/80)
+Epoch [200/1000], Loss: 0.2103 (best: 0.1821, no-improve: 6/80)
+Epoch [250/1000], Loss: 0.2069 (best: 0.1741, no-improve: 19/80)
+Epoch [300/1000], Loss: 0.1993 (best: 0.1741, no-improve: 69/80)
+Epoch [350/1000], Loss: 0.1989 (best: 0.1642, no-improve: 34/80)
+Epoch [400/1000], Loss: 0.1867 (best: 0.1587, no-improve: 11/80)
+Epoch [450/1000], Loss: 0.1778 (best: 0.1587, no-improve: 61/80)
+Early stopping triggered at epoch 469 (no improvement for 80 epochs). Best loss: 0.1587
+Restored best model weights (loss = 0.1587).
+
+ANN Results:
+Accuracy: 0.6898
+ROC-AUC: 0.6559
+Confusion Matrix:
+[[ 45  49]
+ [ 45 164]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.48      0.49        94
+         1.0       0.77      0.78      0.78       209
+
+    accuracy                           0.69       303
+   macro avg       0.63      0.63      0.63       303
+weighted avg       0.69      0.69      0.69       303
+

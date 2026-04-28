@@ -1,0 +1,19 @@
+--- STDOUT ---
+Stacking - Accuracy: 0.7458745874587459
+Stacking - ROC-AUC: 0.6471291866028708
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.63      0.44      0.52        94
+           1       0.78      0.89      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.70      0.66      0.67       303
+weighted avg       0.73      0.75      0.73       303
+
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

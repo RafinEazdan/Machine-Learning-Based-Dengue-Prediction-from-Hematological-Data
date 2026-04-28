@@ -1,0 +1,35 @@
+--- STDOUT ---
+============================================================
+CONVOLUTIONAL NEURAL NETWORK (CNN)
+============================================================
+Using device: cpu
+Training CNN...
+Epoch [50/1000], Loss: 0.4223 (best: 0.4081, no-improve: 1/80)
+Epoch [100/1000], Loss: 0.2724 (best: 0.2724, no-improve: 0/80)
+Epoch [150/1000], Loss: 0.2085 (best: 0.1784, no-improve: 3/80)
+Epoch [200/1000], Loss: 0.1722 (best: 0.1531, no-improve: 16/80)
+Epoch [250/1000], Loss: 0.1429 (best: 0.1308, no-improve: 35/80)
+Epoch [300/1000], Loss: 0.1417 (best: 0.1277, no-improve: 42/80)
+Early stopping triggered at epoch 338 (no improvement for 80 epochs). Best loss: 0.1277
+Restored best model weights (loss = 0.1277).
+
+CNN Results:
+Accuracy: 0.7030
+ROC-AUC: 0.6640
+Confusion Matrix:
+[[ 43  51]
+ [ 39 170]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.46      0.49        94
+         1.0       0.77      0.81      0.79       209
+
+    accuracy                           0.70       303
+   macro avg       0.65      0.64      0.64       303
+weighted avg       0.69      0.70      0.70       303
+
+--- STDERR ---
+/tmp/ipykernel_16/2793680967.py:63: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  X_train_cnn = torch.FloatTensor(X_train).to(device)

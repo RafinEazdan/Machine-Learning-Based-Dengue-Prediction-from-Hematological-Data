@@ -1,0 +1,14 @@
+--- STDOUT ---
+            Model  Accuracy  ROC-AUC
+Gradient Boosting    0.7657   0.6678
+         AdaBoost    0.7393   0.6677
+         CatBoost    0.7393   0.6664
+         LightGBM    0.7393   0.6610
+          XGBoost    0.7558   0.6478
+    Random Forest    0.7525   0.6463
+      Extra Trees    0.7657   0.6423
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

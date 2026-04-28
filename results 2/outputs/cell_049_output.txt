@@ -1,0 +1,38 @@
+--- STDOUT ---
+Logistic Regression: Accuracy = 0.6370, ROC-AUC = 0.6819
+Random Forest: Accuracy = 0.7360, ROC-AUC = 0.6431
+SVM: Accuracy = 0.6865, ROC-AUC = 0.7021
+Gradient Boosting: Accuracy = 0.7855, ROC-AUC = 0.7181
+XGBoost: Accuracy = 0.7756, ROC-AUC = 0.7109
+CatBoost: Accuracy = 0.7789, ROC-AUC = 0.7149
+LightGBM: Accuracy = 0.7723, ROC-AUC = 0.6960
+AdaBoost: Accuracy = 0.7426, ROC-AUC = 0.6603
+Extra Trees: Accuracy = 0.7558, ROC-AUC = 0.6382
+
+==================================================
+MODEL PERFORMANCE COMPARISON
+==================================================
+                 Model  Accuracy  ROC-AUC
+     Gradient Boosting    0.7855   0.7181
+              CatBoost    0.7789   0.7149
+               XGBoost    0.7756   0.7109
+                   SVM    0.6865   0.7021
+              LightGBM    0.7723   0.6960
+PyTorch Neural Network    0.7096   0.6831
+   Logistic Regression    0.6370   0.6819
+     Stacking Ensemble    0.7558   0.6773
+                   CNN    0.7030   0.6640
+              AdaBoost    0.7426   0.6603
+                   ANN    0.6898   0.6559
+              Deep MLP    0.6832   0.6477
+         Random Forest    0.7360   0.6431
+           Extra Trees    0.7558   0.6382
+
+🏆 Best Model: Gradient Boosting
+   Accuracy: 0.7855
+   ROC-AUC: 0.7181
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

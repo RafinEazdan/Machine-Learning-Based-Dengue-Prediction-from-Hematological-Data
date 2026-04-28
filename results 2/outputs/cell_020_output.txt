@@ -1,0 +1,3 @@
+--- STDOUT ---
+Total features available: 19
+Feature names: ['encoder__x0_Female', 'encoder__x0_Male', 'remainder__x1', 'remainder__x2', 'remainder__x3', 'remainder__x4', 'remainder__x5', 'remainder__x6', 'remainder__x7', 'remainder__x8', 'remainder__x9', 'remainder__x10', 'remainder__x11', 'remainder__x12', 'remainder__x13', 'remainder__x14', 'remainder__x15', 'remainder__x16', 'remainder__x17']

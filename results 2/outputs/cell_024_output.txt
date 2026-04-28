@@ -1,0 +1,23 @@
+--- STDOUT ---
+============================================================
+METHOD 4: CHI-SQUARE TEST
+============================================================
+Selected features by Chi-Square (top 10): 10
+Features: ['encoder__x0_Male', 'remainder__x3', 'remainder__x4', 'remainder__x5', 'remainder__x6', 'remainder__x7', 'remainder__x9', 'remainder__x12', 'remainder__x16', 'remainder__x17']
+
+Top Chi-Square values:
+  remainder__x7: Chi² = 15.7679 - ✓ Selected
+  remainder__x5: Chi² = 10.2201 - ✓ Selected
+  remainder__x12: Chi² = 7.3496 - ✓ Selected
+  remainder__x6: Chi² = 2.5728 - ✓ Selected
+  remainder__x17: Chi² = 1.9004 - ✓ Selected
+  remainder__x3: Chi² = 1.8063 - ✓ Selected
+  remainder__x9: Chi² = 1.6066 - ✓ Selected
+  remainder__x4: Chi² = 1.3995 - ✓ Selected
+  remainder__x16: Chi² = 1.3885 - ✓ Selected
+  encoder__x0_Male: Chi² = 0.9344 - ✓ Selected
+  encoder__x0_Female: Chi² = 0.9022 - ✗ Not selected
+  remainder__x14: Chi² = 0.8465 - ✗ Not selected
+  remainder__x1: Chi² = 0.7884 - ✗ Not selected
+  remainder__x8: Chi² = 0.7253 - ✗ Not selected
+  remainder__x10: Chi² = 0.6752 - ✗ Not selected

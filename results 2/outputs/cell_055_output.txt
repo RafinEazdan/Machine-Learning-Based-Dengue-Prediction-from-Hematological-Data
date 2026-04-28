@@ -1,0 +1,23 @@
+--- STDOUT ---
+Fitting 5 folds for each of 108 candidates, totalling 540 fits
+============================================================
+XGBoost - Best params: {'colsample_bytree': 1.0, 'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 200, 'subsample': 0.8}
+XGBoost - Best CV ROC-AUC: 0.8774
+XGBoost - Test accuracy: 0.7558
+XGBoost - Test ROC-AUC: 0.6478
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.66      0.44      0.53        94
+           1       0.78      0.90      0.84       209
+
+    accuracy                           0.76       303
+   macro avg       0.72      0.67      0.68       303
+weighted avg       0.74      0.76      0.74       303
+
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [06:45:22] WARNING: /__w/xgboost/xgboost/src/learner.cc:782: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)

@@ -1,0 +1,23 @@
+--- STDOUT ---
+Fitting 5 folds for each of 162 candidates, totalling 810 fits
+============================================================
+LightGBM - Best params: {'learning_rate': 0.05, 'max_depth': -1, 'n_estimators': 200, 'num_leaves': 63, 'subsample': 0.8}
+LightGBM - Best CV ROC-AUC: 0.8751
+LightGBM - Test accuracy: 0.7393
+LightGBM - Test ROC-AUC: 0.6610
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.62      0.43      0.50        94
+           1       0.77      0.88      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.65      0.66       303
+weighted avg       0.72      0.74      0.72       303
+
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

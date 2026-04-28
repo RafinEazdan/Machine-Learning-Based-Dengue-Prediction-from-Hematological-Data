@@ -1,0 +1,23 @@
+--- STDOUT ---
+============================================================
+METHOD 5: EXTRA TREES CLASSIFIER FEATURE IMPORTANCE
+============================================================
+Selected features by Extra Trees (importance >= 0.05): 13
+Features: ['remainder__x1', 'remainder__x3', 'remainder__x4', 'remainder__x5', 'remainder__x6', 'remainder__x7', 'remainder__x8', 'remainder__x10', 'remainder__x12', 'remainder__x13', 'remainder__x14', 'remainder__x16', 'remainder__x17']
+
+Top Feature Importances:
+  remainder__x7: Importance = 0.0716 - ✓ Selected
+  remainder__x13: Importance = 0.0685 - ✓ Selected
+  remainder__x5: Importance = 0.0667 - ✓ Selected
+  remainder__x12: Importance = 0.0604 - ✓ Selected
+  remainder__x3: Importance = 0.0588 - ✓ Selected
+  remainder__x1: Importance = 0.0570 - ✓ Selected
+  remainder__x16: Importance = 0.0566 - ✓ Selected
+  remainder__x17: Importance = 0.0545 - ✓ Selected
+  remainder__x10: Importance = 0.0540 - ✓ Selected
+  remainder__x6: Importance = 0.0540 - ✓ Selected
+  remainder__x4: Importance = 0.0539 - ✓ Selected
+  remainder__x14: Importance = 0.0513 - ✓ Selected
+  remainder__x8: Importance = 0.0507 - ✓ Selected
+  remainder__x11: Importance = 0.0496 - ✗ Not selected
+  remainder__x2: Importance = 0.0481 - ✗ Not selected

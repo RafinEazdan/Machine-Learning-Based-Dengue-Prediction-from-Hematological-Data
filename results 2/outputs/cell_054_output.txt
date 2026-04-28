@@ -1,0 +1,18 @@
+--- STDOUT ---
+Fitting 5 folds for each of 54 candidates, totalling 270 fits
+============================================================
+Gradient Boosting - Best params: {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100, 'subsample': 0.8}
+Gradient Boosting - Best CV ROC-AUC: 0.8655
+Gradient Boosting - Test accuracy: 0.7657
+Gradient Boosting - Test ROC-AUC: 0.6678
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.40      0.52        94
+           1       0.78      0.93      0.85       209
+
+    accuracy                           0.77       303
+   macro avg       0.75      0.67      0.68       303
+weighted avg       0.76      0.77      0.74       303
+

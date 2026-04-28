@@ -1,0 +1,80 @@
+--- STDOUT ---
+================================================================================
+FEATURE SELECTION SUMMARY - CONSENSUS ANALYSIS
+================================================================================
+Feature Selection Results by Method:
+--------------------------------------------------
+Pearson_Correlation: 8 features selected
+  Threshold: 0.1
+
+RFE: 10 features selected
+  Top 10 features selected
+
+ANOVA_F_value: 10 features selected
+  Top 10 features by F-value
+
+Chi_Square: 10 features selected
+  Top 10 features by Chi-Square
+
+Extra_Trees: 13 features selected
+  Importance threshold: 0.05
+
+Consensus Ranking (Features selected by multiple methods):
+------------------------------------------------------------
+remainder__x6:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x7:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x12:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x16:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x4:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x3:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x5:
+  Selected by 5/5 methods
+  Methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x17:
+  Selected by 4/5 methods
+  Methods: Pearson_Correlation, ANOVA_F_value, Chi_Square, Extra_Trees
+
+remainder__x10:
+  Selected by 3/5 methods
+  Methods: RFE, ANOVA_F_value, Extra_Trees
+
+remainder__x13:
+  Selected by 2/5 methods
+  Methods: RFE, Extra_Trees
+
+remainder__x9:
+  Selected by 2/5 methods
+  Methods: ANOVA_F_value, Chi_Square
+
+FINAL CONSENSUS FEATURES (11 selected):
+------------------------------------------------------------
+ 1. remainder__x6 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 2. remainder__x7 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 3. remainder__x12 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 4. remainder__x16 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 5. remainder__x4 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 6. remainder__x3 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 7. remainder__x5 (voted by 5 methods: Pearson_Correlation, RFE, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 8. remainder__x17 (voted by 4 methods: Pearson_Correlation, ANOVA_F_value, Chi_Square, Extra_Trees)
+ 9. remainder__x10 (voted by 3 methods: RFE, ANOVA_F_value, Extra_Trees)
+10. remainder__x13 (voted by 2 methods: RFE, Extra_Trees)
+11. remainder__x9 (voted by 2 methods: ANOVA_F_value, Chi_Square)

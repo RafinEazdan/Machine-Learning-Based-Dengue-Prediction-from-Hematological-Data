@@ -1,0 +1,18 @@
+--- STDOUT ---
+Fitting 5 folds for each of 72 candidates, totalling 360 fits
+============================================================
+Extra Trees - Best params: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 500}
+Extra Trees - Best CV ROC-AUC: 0.8954
+Extra Trees - Test accuracy: 0.7657
+Extra Trees - Test ROC-AUC: 0.6423
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.69      0.44      0.54        94
+           1       0.78      0.91      0.84       209
+
+    accuracy                           0.77       303
+   macro avg       0.74      0.68      0.69       303
+weighted avg       0.76      0.77      0.75       303
+

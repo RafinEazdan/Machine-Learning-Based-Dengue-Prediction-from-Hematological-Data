@@ -1,0 +1,9 @@
+--- STDOUT ---
+
+================================================================================
+FEATURE SELECTION COMPLETE
+================================================================================
+✓ Applied 5 feature selection methods
+✓ Identified 11 consensus features
+✓ Ready for model training with selected features
+✓ Feature selection results stored in 'feature_selection_results' dictionary

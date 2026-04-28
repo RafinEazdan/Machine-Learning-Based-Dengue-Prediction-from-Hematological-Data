@@ -1,0 +1,13 @@
+--- STDOUT ---
+                      Model  Accuracy  ROC-AUC
+Bagging (Gradient Boosting)    0.7789   0.6644
+                Soft Voting    0.7525   0.6547
+                   Stacking    0.7459   0.6471
+                Hard Voting    0.7492      NaN
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

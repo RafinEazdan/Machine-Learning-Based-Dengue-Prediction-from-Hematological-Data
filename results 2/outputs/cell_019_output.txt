@@ -1,0 +1,3 @@
+--- STDOUT ---
+Before: Counter({np.int64(1): 826, np.int64(0): 382})
+After:  Counter({np.int64(1): 826, np.int64(0): 826})

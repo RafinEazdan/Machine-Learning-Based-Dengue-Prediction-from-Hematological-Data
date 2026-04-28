@@ -1,0 +1,18 @@
+--- STDOUT ---
+Fitting 5 folds for each of 81 candidates, totalling 405 fits
+============================================================
+CatBoost - Best params: {'depth': 7, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.1}
+CatBoost - Best CV ROC-AUC: 0.8827
+CatBoost - Test accuracy: 0.7393
+CatBoost - Test ROC-AUC: 0.6664
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.62      0.41      0.50        94
+           1       0.77      0.89      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.65      0.66       303
+weighted avg       0.72      0.74      0.72       303
+

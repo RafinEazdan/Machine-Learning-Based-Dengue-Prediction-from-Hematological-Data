@@ -1,0 +1,973 @@
+--- STDOUT ---
+================================================================================
+FINAL MODEL SUMMARY — every trained model in this notebook
+================================================================================
+
+================================================================================
+MODEL: Logistic Regression
+================================================================================
+--- Model / Architecture ---
+LogisticRegression(random_state=0)
+
+--- Test-set metrics ---
+Accuracy : 0.6370
+ROC-AUC  : 0.6819
+Precision: 0.7861
+Recall   : 0.6507
+F1       : 0.7120
+
+Confusion matrix:
+[[ 57  37]
+ [ 73 136]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.61      0.51        94
+           1       0.79      0.65      0.71       209
+
+    accuracy                           0.64       303
+   macro avg       0.61      0.63      0.61       303
+weighted avg       0.68      0.64      0.65       303
+
+
+================================================================================
+MODEL: Random Forest
+================================================================================
+--- Model / Architecture ---
+RandomForestClassifier(class_weight='balanced_subsample', n_estimators=300,
+                       n_jobs=-1, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7360
+ROC-AUC  : 0.6431
+Precision: 0.7699
+Recall   : 0.8804
+F1       : 0.8214
+
+Confusion matrix:
+[[ 39  55]
+ [ 25 184]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.41      0.49        94
+           1       0.77      0.88      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.65      0.66       303
+weighted avg       0.72      0.74      0.72       303
+
+
+================================================================================
+MODEL: SVM
+================================================================================
+--- Model / Architecture ---
+SVC(probability=True, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.6865
+ROC-AUC  : 0.7021
+Precision: 0.7767
+Recall   : 0.7656
+F1       : 0.7711
+
+Confusion matrix:
+[[ 48  46]
+ [ 49 160]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.49      0.51      0.50        94
+           1       0.78      0.77      0.77       209
+
+    accuracy                           0.69       303
+   macro avg       0.64      0.64      0.64       303
+weighted avg       0.69      0.69      0.69       303
+
+
+================================================================================
+MODEL: Gradient Boosting
+================================================================================
+--- Model / Architecture ---
+GradientBoostingClassifier(random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7855
+ROC-AUC  : 0.7181
+Precision: 0.7857
+Recall   : 0.9474
+F1       : 0.8590
+
+Confusion matrix:
+[[ 40  54]
+ [ 11 198]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.78      0.43      0.55        94
+           1       0.79      0.95      0.86       209
+
+    accuracy                           0.79       303
+   macro avg       0.79      0.69      0.71       303
+weighted avg       0.79      0.79      0.76       303
+
+
+================================================================================
+MODEL: XGBoost
+================================================================================
+--- Model / Architecture ---
+XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='logloss',
+              feature_types=None, feature_weights=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.1, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, ...)
+
+--- Test-set metrics ---
+Accuracy : 0.7756
+ROC-AUC  : 0.7109
+Precision: 0.7831
+Recall   : 0.9330
+F1       : 0.8515
+
+Confusion matrix:
+[[ 40  54]
+ [ 14 195]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.43      0.54        94
+           1       0.78      0.93      0.85       209
+
+    accuracy                           0.78       303
+   macro avg       0.76      0.68      0.70       303
+weighted avg       0.77      0.78      0.76       303
+
+
+================================================================================
+MODEL: CatBoost
+================================================================================
+--- Model / Architecture ---
+CatBoostClassifier(depth=3, iterations=100, learning_rate=0.1, random_state=42, verbose=False)
+
+--- Test-set metrics ---
+Accuracy : 0.7789
+ROC-AUC  : 0.7149
+Precision: 0.7910
+Recall   : 0.9234
+F1       : 0.8521
+
+Confusion matrix:
+[[ 43  51]
+ [ 16 193]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.46      0.56        94
+           1       0.79      0.92      0.85       209
+
+    accuracy                           0.78       303
+   macro avg       0.76      0.69      0.71       303
+weighted avg       0.77      0.78      0.76       303
+
+
+================================================================================
+MODEL: LightGBM
+================================================================================
+--- Model / Architecture ---
+LGBMClassifier(max_depth=3, random_state=42, verbose=-1)
+
+--- Test-set metrics ---
+Accuracy : 0.7723
+ROC-AUC  : 0.6960
+Precision: 0.7800
+Recall   : 0.9330
+F1       : 0.8497
+
+Confusion matrix:
+[[ 39  55]
+ [ 14 195]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.41      0.53        94
+           1       0.78      0.93      0.85       209
+
+    accuracy                           0.77       303
+   macro avg       0.76      0.67      0.69       303
+weighted avg       0.77      0.77      0.75       303
+
+
+================================================================================
+MODEL: AdaBoost
+================================================================================
+--- Model / Architecture ---
+AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=1),
+                   learning_rate=0.1, n_estimators=100, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7426
+ROC-AUC  : 0.6603
+Precision: 0.7764
+Recall   : 0.8804
+F1       : 0.8251
+
+Confusion matrix:
+[[ 41  53]
+ [ 25 184]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.44      0.51        94
+           1       0.78      0.88      0.83       209
+
+    accuracy                           0.74       303
+   macro avg       0.70      0.66      0.67       303
+weighted avg       0.73      0.74      0.73       303
+
+
+================================================================================
+MODEL: Extra Trees
+================================================================================
+--- Model / Architecture ---
+ExtraTreesClassifier(n_jobs=-1, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7558
+ROC-AUC  : 0.6382
+Precision: 0.7801
+Recall   : 0.8995
+F1       : 0.8356
+
+Confusion matrix:
+[[ 41  53]
+ [ 21 188]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.44      0.53        94
+           1       0.78      0.90      0.84       209
+
+    accuracy                           0.76       303
+   macro avg       0.72      0.67      0.68       303
+weighted avg       0.74      0.76      0.74       303
+
+
+================================================================================
+MODEL: Stacking Ensemble (initial)
+================================================================================
+--- Model / Architecture ---
+StackingClassifier(cv=5,
+                   estimators=[('xgboost',
+                                XGBClassifier(base_score=None, booster=None,
+                                              callbacks=None,
+                                              colsample_bylevel=None,
+                                              colsample_bynode=None,
+                                              colsample_bytree=None,
+                                              device=None,
+                                              early_stopping_rounds=None,
+                                              enable_categorical=False,
+                                              eval_metric='logloss',
+                                              feature_types=None,
+                                              feature_weights=None, gamma=None,
+                                              grow_policy=None,
+                                              importance_type=None,
+                                              int...
+                                              n_estimators=100, n_jobs=None,
+                                              num_parallel_tree=None, ...)),
+                               ('logistic',
+                                LogisticRegression(max_iter=1000,
+                                                   random_state=42)),
+                               ('mlp',
+                                MLPClassifier(early_stopping=True,
+                                              hidden_layer_sizes=(100, 50),
+                                              max_iter=1000,
+                                              n_iter_no_change=80,
+                                              random_state=42))],
+                   final_estimator=LGBMClassifier(n_estimators=50,
+                                                  random_state=42, verbose=-1),
+                   n_jobs=-1, stack_method='predict_proba')
+
+--- Test-set metrics ---
+Accuracy : 0.7558
+ROC-AUC  : 0.6773
+Precision: 0.7848
+Recall   : 0.8900
+F1       : 0.8341
+
+Confusion matrix:
+[[ 43  51]
+ [ 23 186]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.46      0.54        94
+           1       0.78      0.89      0.83       209
+
+    accuracy                           0.76       303
+   macro avg       0.72      0.67      0.69       303
+weighted avg       0.74      0.76      0.74       303
+
+
+================================================================================
+MODEL: Voting (Hard) — Tuned
+================================================================================
+--- Model / Architecture ---
+VotingClassifier(estimators=[('random_forest',
+                              RandomForestClassifier(class_weight='balanced_subsample',
+                                                     min_samples_split=5,
+                                                     n_estimators=300,
+                                                     n_jobs=-1,
+                                                     random_state=42)),
+                             ('gradient_boosting',
+                              GradientBoostingClassifier(max_depth=7,
+                                                         random_state=42,
+                                                         subsample=0.8)),
+                             ('xgboost',
+                              XGBClassifier(base_score=None, booster=None,
+                                            callbacks=None,
+                                            colsample_bylevel=Non...
+                             ('lightgbm',
+                              LGBMClassifier(learning_rate=0.05,
+                                             n_estimators=200, n_jobs=-1,
+                                             num_leaves=63, random_state=42,
+                                             subsample=0.8, verbose=-1)),
+                             ('adaboost',
+                              AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3),
+                                                 n_estimators=200,
+                                                 random_state=42)),
+                             ('extra_trees',
+                              ExtraTreesClassifier(min_samples_split=5,
+                                                   n_estimators=500, n_jobs=-1,
+                                                   random_state=42))],
+                 n_jobs=-1)
+
+--- Test-set metrics ---
+Accuracy : 0.7492
+ROC-AUC  : n/a
+Precision: 0.7714
+Recall   : 0.9043
+F1       : 0.8326
+
+Confusion matrix:
+[[ 38  56]
+ [ 20 189]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.40      0.50        94
+           1       0.77      0.90      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.71      0.65      0.67       303
+weighted avg       0.74      0.75      0.73       303
+
+
+================================================================================
+MODEL: Voting (Soft) — Tuned
+================================================================================
+--- Model / Architecture ---
+VotingClassifier(estimators=[('random_forest',
+                              RandomForestClassifier(class_weight='balanced_subsample',
+                                                     min_samples_split=5,
+                                                     n_estimators=300,
+                                                     n_jobs=-1,
+                                                     random_state=42)),
+                             ('gradient_boosting',
+                              GradientBoostingClassifier(max_depth=7,
+                                                         random_state=42,
+                                                         subsample=0.8)),
+                             ('xgboost',
+                              XGBClassifier(base_score=None, booster=None,
+                                            callbacks=None,
+                                            colsample_bylevel=Non...
+                              LGBMClassifier(learning_rate=0.05,
+                                             n_estimators=200, n_jobs=-1,
+                                             num_leaves=63, random_state=42,
+                                             subsample=0.8, verbose=-1)),
+                             ('adaboost',
+                              AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3),
+                                                 n_estimators=200,
+                                                 random_state=42)),
+                             ('extra_trees',
+                              ExtraTreesClassifier(min_samples_split=5,
+                                                   n_estimators=500, n_jobs=-1,
+                                                   random_state=42))],
+                 n_jobs=-1, voting='soft')
+
+--- Test-set metrics ---
+Accuracy : 0.7525
+ROC-AUC  : 0.6547
+Precision: 0.7724
+Recall   : 0.9091
+F1       : 0.8352
+
+Confusion matrix:
+[[ 38  56]
+ [ 19 190]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.40      0.50        94
+           1       0.77      0.91      0.84       209
+
+    accuracy                           0.75       303
+   macro avg       0.72      0.66      0.67       303
+weighted avg       0.74      0.75      0.73       303
+
+
+================================================================================
+MODEL: Stacking — Tuned
+================================================================================
+--- Model / Architecture ---
+StackingClassifier(cv=5,
+                   estimators=[('random_forest',
+                                RandomForestClassifier(class_weight='balanced_subsample',
+                                                       min_samples_split=5,
+                                                       n_estimators=300,
+                                                       n_jobs=-1,
+                                                       random_state=42)),
+                               ('gradient_boosting',
+                                GradientBoostingClassifier(max_depth=7,
+                                                           random_state=42,
+                                                           subsample=0.8)),
+                               ('xgboost',
+                                XGBClassifier(base_score=None, booster=None,
+                                              callbacks=None,
+                                              colsample_byle...
+                                               num_leaves=63, random_state=42,
+                                               subsample=0.8, verbose=-1)),
+                               ('adaboost',
+                                AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3),
+                                                   n_estimators=200,
+                                                   random_state=42)),
+                               ('extra_trees',
+                                ExtraTreesClassifier(min_samples_split=5,
+                                                     n_estimators=500,
+                                                     n_jobs=-1,
+                                                     random_state=42))],
+                   final_estimator=LogisticRegression(max_iter=1000,
+                                                      random_state=42),
+                   n_jobs=-1, stack_method='predict_proba')
+
+--- Test-set metrics ---
+Accuracy : 0.7459
+ROC-AUC  : 0.6471
+Precision: 0.7773
+Recall   : 0.8852
+F1       : 0.8277
+
+Confusion matrix:
+[[ 41  53]
+ [ 24 185]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.44      0.52        94
+           1       0.78      0.89      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.70      0.66      0.67       303
+weighted avg       0.73      0.75      0.73       303
+
+
+================================================================================
+MODEL: Bagging — Tuned best
+================================================================================
+--- Model / Architecture ---
+BaggingClassifier(estimator=GradientBoostingClassifier(max_depth=7,
+                                                       random_state=42,
+                                                       subsample=0.8),
+                  max_samples=0.8, n_estimators=20, n_jobs=-1, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7789
+ROC-AUC  : 0.6644
+Precision: 0.7886
+Recall   : 0.9282
+F1       : 0.8527
+
+Confusion matrix:
+[[ 42  52]
+ [ 15 194]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.45      0.56        94
+           1       0.79      0.93      0.85       209
+
+    accuracy                           0.78       303
+   macro avg       0.76      0.69      0.70       303
+weighted avg       0.77      0.78      0.76       303
+
+
+================================================================================
+MODEL: Random Forest — Tuned
+================================================================================
+--- Model / Architecture ---
+RandomForestClassifier(class_weight='balanced_subsample', min_samples_split=5,
+                       n_estimators=300, n_jobs=-1, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7525
+ROC-AUC  : 0.6463
+Precision: 0.7746
+Recall   : 0.9043
+F1       : 0.8344
+
+Confusion matrix:
+[[ 39  55]
+ [ 20 189]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.41      0.51        94
+           1       0.77      0.90      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.72      0.66      0.67       303
+weighted avg       0.74      0.75      0.73       303
+
+
+================================================================================
+MODEL: Gradient Boosting — Tuned
+================================================================================
+--- Model / Architecture ---
+GradientBoostingClassifier(max_depth=7, random_state=42, subsample=0.8)
+
+--- Test-set metrics ---
+Accuracy : 0.7657
+ROC-AUC  : 0.6678
+Precision: 0.7760
+Recall   : 0.9282
+F1       : 0.8453
+
+Confusion matrix:
+[[ 38  56]
+ [ 15 194]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.40      0.52        94
+           1       0.78      0.93      0.85       209
+
+    accuracy                           0.77       303
+   macro avg       0.75      0.67      0.68       303
+weighted avg       0.76      0.77      0.74       303
+
+
+================================================================================
+MODEL: XGBoost — Tuned
+================================================================================
+--- Model / Architecture ---
+XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=1.0, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric='logloss',
+              feature_types=None, feature_weights=None, gamma=None,
+              grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.05, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=200, n_jobs=-1,
+              num_parallel_tree=None, ...)
+
+--- Test-set metrics ---
+Accuracy : 0.7558
+ROC-AUC  : 0.6478
+Precision: 0.7801
+Recall   : 0.8995
+F1       : 0.8356
+
+Confusion matrix:
+[[ 41  53]
+ [ 21 188]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.44      0.53        94
+           1       0.78      0.90      0.84       209
+
+    accuracy                           0.76       303
+   macro avg       0.72      0.67      0.68       303
+weighted avg       0.74      0.76      0.74       303
+
+
+================================================================================
+MODEL: CatBoost — Tuned
+================================================================================
+--- Model / Architecture ---
+CatBoostClassifier(depth=7, iterations=200, l2_leaf_reg=5, learning_rate=0.1, random_state=42, verbose=False)
+
+--- Test-set metrics ---
+Accuracy : 0.7393
+ROC-AUC  : 0.6664
+Precision: 0.7708
+Recall   : 0.8852
+F1       : 0.8241
+
+Confusion matrix:
+[[ 39  55]
+ [ 24 185]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.41      0.50        94
+           1       0.77      0.89      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.65      0.66       303
+weighted avg       0.72      0.74      0.72       303
+
+
+================================================================================
+MODEL: LightGBM — Tuned
+================================================================================
+--- Model / Architecture ---
+LGBMClassifier(learning_rate=0.05, n_estimators=200, n_jobs=-1, num_leaves=63,
+               random_state=42, subsample=0.8, verbose=-1)
+
+--- Test-set metrics ---
+Accuracy : 0.7393
+ROC-AUC  : 0.6610
+Precision: 0.7731
+Recall   : 0.8804
+F1       : 0.8233
+
+Confusion matrix:
+[[ 40  54]
+ [ 25 184]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.43      0.50        94
+           1       0.77      0.88      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.65      0.66       303
+weighted avg       0.72      0.74      0.72       303
+
+
+================================================================================
+MODEL: AdaBoost — Tuned
+================================================================================
+--- Model / Architecture ---
+AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3),
+                   n_estimators=200, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7393
+ROC-AUC  : 0.6677
+Precision: 0.7754
+Recall   : 0.8756
+F1       : 0.8225
+
+Confusion matrix:
+[[ 41  53]
+ [ 26 183]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.44      0.51        94
+           1       0.78      0.88      0.82       209
+
+    accuracy                           0.74       303
+   macro avg       0.69      0.66      0.67       303
+weighted avg       0.72      0.74      0.73       303
+
+
+================================================================================
+MODEL: Extra Trees — Tuned
+================================================================================
+--- Model / Architecture ---
+ExtraTreesClassifier(min_samples_split=5, n_estimators=500, n_jobs=-1,
+                     random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7657
+ROC-AUC  : 0.6423
+Precision: 0.7828
+Recall   : 0.9139
+F1       : 0.8433
+
+Confusion matrix:
+[[ 41  53]
+ [ 18 191]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.44      0.54        94
+           1       0.78      0.91      0.84       209
+
+    accuracy                           0.77       303
+   macro avg       0.74      0.68      0.69       303
+weighted avg       0.76      0.77      0.75       303
+
+
+================================================================================
+MODEL: CNN
+================================================================================
+--- Model / Architecture ---
+CNN1D(
+  (conv_layers): Sequential(
+    (0): Conv1d(1, 32, kernel_size=(3,), stride=(1,), padding=(1,))
+    (1): ReLU()
+    (2): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): Dropout(p=0.2, inplace=False)
+    (4): Conv1d(32, 64, kernel_size=(3,), stride=(1,), padding=(1,))
+    (5): ReLU()
+    (6): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (7): Dropout(p=0.2, inplace=False)
+    (8): Conv1d(64, 128, kernel_size=(3,), stride=(1,), padding=(1,))
+    (9): ReLU()
+    (10): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (11): Dropout(p=0.2, inplace=False)
+  )
+  (classifier): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=128, out_features=256, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.3, inplace=False)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Dropout(p=0.2, inplace=False)
+    (7): Linear(in_features=128, out_features=1, bias=True)
+    (8): Sigmoid()
+  )
+)
+
+--- Test-set metrics ---
+Accuracy : 0.7030
+ROC-AUC  : 0.6640
+Precision: 0.7692
+Recall   : 0.8134
+F1       : 0.7907
+
+Confusion matrix:
+[[ 43  51]
+ [ 39 170]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.46      0.49        94
+           1       0.77      0.81      0.79       209
+
+    accuracy                           0.70       303
+   macro avg       0.65      0.64      0.64       303
+weighted avg       0.69      0.70      0.70       303
+
+
+================================================================================
+MODEL: Deep MLP
+================================================================================
+--- Model / Architecture ---
+DeepMLP(
+  (network): Sequential(
+    (0): Linear(in_features=11, out_features=512, bias=True)
+    (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Dropout(p=0.3, inplace=False)
+    (4): Linear(in_features=512, out_features=256, bias=True)
+    (5): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): ReLU()
+    (7): Dropout(p=0.3, inplace=False)
+    (8): Linear(in_features=256, out_features=128, bias=True)
+    (9): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (10): ReLU()
+    (11): Dropout(p=0.2, inplace=False)
+    (12): Linear(in_features=128, out_features=64, bias=True)
+    (13): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (14): ReLU()
+    (15): Dropout(p=0.2, inplace=False)
+    (16): Linear(in_features=64, out_features=32, bias=True)
+    (17): ReLU()
+    (18): Dropout(p=0.1, inplace=False)
+    (19): Linear(in_features=32, out_features=1, bias=True)
+    (20): Sigmoid()
+  )
+)
+
+--- Test-set metrics ---
+Accuracy : 0.6832
+ROC-AUC  : 0.6477
+Precision: 0.7703
+Recall   : 0.7703
+F1       : 0.7703
+
+Confusion matrix:
+[[ 46  48]
+ [ 48 161]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.49      0.49      0.49        94
+           1       0.77      0.77      0.77       209
+
+    accuracy                           0.68       303
+   macro avg       0.63      0.63      0.63       303
+weighted avg       0.68      0.68      0.68       303
+
+
+================================================================================
+MODEL: ANN
+================================================================================
+--- Model / Architecture ---
+ANN(
+  (network): Sequential(
+    (0): Linear(in_features=11, out_features=256, bias=True)
+    (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Dropout(p=0.2, inplace=False)
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (6): ReLU()
+    (7): Dropout(p=0.2, inplace=False)
+    (8): Linear(in_features=128, out_features=64, bias=True)
+    (9): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (10): ReLU()
+    (11): Dropout(p=0.1, inplace=False)
+    (12): Linear(in_features=64, out_features=32, bias=True)
+    (13): ReLU()
+    (14): Dropout(p=0.1, inplace=False)
+    (15): Linear(in_features=32, out_features=1, bias=True)
+    (16): Sigmoid()
+  )
+)
+
+--- Test-set metrics ---
+Accuracy : 0.6898
+ROC-AUC  : 0.6559
+Precision: 0.7700
+Recall   : 0.7847
+F1       : 0.7773
+
+Confusion matrix:
+[[ 45  49]
+ [ 45 164]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.48      0.49        94
+           1       0.77      0.78      0.78       209
+
+    accuracy                           0.69       303
+   macro avg       0.63      0.63      0.63       303
+weighted avg       0.69      0.69      0.69       303
+
+
+================================================================================
+MODEL: PyTorch BinaryClassificationModel
+================================================================================
+--- Model / Architecture ---
+BaggingClassifier(estimator=GradientBoostingClassifier(max_depth=7,
+                                                       random_state=42,
+                                                       subsample=0.8),
+                  max_samples=0.8, n_estimators=20, n_jobs=-1, random_state=42)
+
+--- Test-set metrics ---
+Accuracy : 0.7096
+ROC-AUC  : 0.6831
+Precision: 0.7788
+Recall   : 0.8086
+F1       : 0.7934
+
+Confusion matrix:
+[[ 46  48]
+ [ 40 169]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.53      0.49      0.51        94
+           1       0.78      0.81      0.79       209
+
+    accuracy                           0.71       303
+   macro avg       0.66      0.65      0.65       303
+weighted avg       0.70      0.71      0.71       303
+
+
+================================================================================
+MASTER COMPARISON TABLE  (sorted by ROC-AUC, descending)
+================================================================================
+                            Model  Accuracy  ROC-AUC  Precision  Recall     F1
+                Gradient Boosting    0.7855   0.7181     0.7857  0.9474 0.8590
+                         CatBoost    0.7789   0.7149     0.7910  0.9234 0.8521
+                          XGBoost    0.7756   0.7109     0.7831  0.9330 0.8515
+                              SVM    0.6865   0.7021     0.7767  0.7656 0.7711
+                         LightGBM    0.7723   0.6960     0.7800  0.9330 0.8497
+PyTorch BinaryClassificationModel    0.7096   0.6831     0.7788  0.8086 0.7934
+              Logistic Regression    0.6370   0.6819     0.7861  0.6507 0.7120
+      Stacking Ensemble (initial)    0.7558   0.6773     0.7848  0.8900 0.8341
+        Gradient Boosting — Tuned    0.7657   0.6678     0.7760  0.9282 0.8453
+                 AdaBoost — Tuned    0.7393   0.6677     0.7754  0.8756 0.8225
+                 CatBoost — Tuned    0.7393   0.6664     0.7708  0.8852 0.8241
+             Bagging — Tuned best    0.7789   0.6644     0.7886  0.9282 0.8527
+                              CNN    0.7030   0.6640     0.7692  0.8134 0.7907
+                 LightGBM — Tuned    0.7393   0.6610     0.7731  0.8804 0.8233
+                         AdaBoost    0.7426   0.6603     0.7764  0.8804 0.8251
+                              ANN    0.6898   0.6559     0.7700  0.7847 0.7773
+            Voting (Soft) — Tuned    0.7525   0.6547     0.7724  0.9091 0.8352
+                  XGBoost — Tuned    0.7558   0.6478     0.7801  0.8995 0.8356
+                         Deep MLP    0.6832   0.6477     0.7703  0.7703 0.7703
+                 Stacking — Tuned    0.7459   0.6471     0.7773  0.8852 0.8277
+            Random Forest — Tuned    0.7525   0.6463     0.7746  0.9043 0.8344
+                    Random Forest    0.7360   0.6431     0.7699  0.8804 0.8214
+              Extra Trees — Tuned    0.7657   0.6423     0.7828  0.9139 0.8433
+                      Extra Trees    0.7558   0.6382     0.7801  0.8995 0.8356
+            Voting (Hard) — Tuned    0.7492      NaN     0.7714  0.9043 0.8326
+
+Saved master summary table to /kaggle/working/outputs/model_summary_table.csv
+--- STDERR ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(

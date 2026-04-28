@@ -1,0 +1,93 @@
+--- STDOUT ---
+Numeric columns for outlier handling: ['Age', 'Hemoglobin(g/dl)', 'Neutrophils(%)', 'Lymphocytes(%)', 'Monocytes(%)', 'Eosinophils(%)', 'RBC', 'HCT(%)', 'MCV(fl)', 'MCH(pg)', 'MCHC(g/dl)', 'RDW-CV(%)', 'Total Platelet Count(/cumm)', 'MPV(fl)', 'PDW(%)', 'PCT(%)', 'Total WBC count(/cumm)']
+Original dataset shape: (1511, 19)
+
+IQR Cap Analysis per Feature:
+------------------------------------------------------------
+Age:
+  - Q1: 28.00 | Q3: 53.00 | IQR: 25.00
+  - Lower cap: -9.50 | Upper cap: 90.50
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+Hemoglobin(g/dl):
+  - Q1: 13.20 | Q3: 15.80 | IQR: 2.60
+  - Lower cap: 9.30 | Upper cap: 19.70
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+Neutrophils(%):
+  - Q1: 42.00 | Q3: 48.00 | IQR: 6.00
+  - Lower cap: 33.00 | Upper cap: 57.00
+  - Values below lower: 27 | above upper: 8 (2.32% of rows)
+
+Lymphocytes(%):
+  - Q1: 41.00 | Q3: 47.00 | IQR: 6.00
+  - Lower cap: 32.00 | Upper cap: 56.00
+  - Values below lower: 67 | above upper: 0 (4.43% of rows)
+
+Monocytes(%):
+  - Q1: 2.00 | Q3: 4.00 | IQR: 2.00
+  - Lower cap: -1.00 | Upper cap: 7.00
+  - Values below lower: 0 | above upper: 17 (1.13% of rows)
+
+Eosinophils(%):
+  - Q1: 2.00 | Q3: 4.00 | IQR: 2.00
+  - Lower cap: -1.00 | Upper cap: 7.00
+  - Values below lower: 0 | above upper: 1 (0.07% of rows)
+
+RBC:
+  - Q1: 4.00 | Q3: 5.00 | IQR: 1.00
+  - Lower cap: 2.50 | Upper cap: 6.50
+  - Values below lower: 0 | above upper: 33 (2.18% of rows)
+
+HCT(%):
+  - Q1: 42.56 | Q3: 47.86 | IQR: 5.30
+  - Lower cap: 34.60 | Upper cap: 55.82
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+MCV(fl):
+  - Q1: 85.10 | Q3: 94.20 | IQR: 9.10
+  - Lower cap: 71.45 | Upper cap: 107.85
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+MCH(pg):
+  - Q1: 28.40 | Q3: 31.40 | IQR: 3.00
+  - Lower cap: 23.90 | Upper cap: 35.90
+  - Values below lower: 4 | above upper: 0 (0.26% of rows)
+
+MCHC(g/dl):
+  - Q1: 30.90 | Q3: 33.20 | IQR: 2.30
+  - Lower cap: 27.45 | Upper cap: 36.65
+  - Values below lower: 4 | above upper: 0 (0.26% of rows)
+
+RDW-CV(%):
+  - Q1: 12.40 | Q3: 14.70 | IQR: 2.30
+  - Lower cap: 8.95 | Upper cap: 18.15
+  - Values below lower: 0 | above upper: 1 (0.07% of rows)
+
+Total Platelet Count(/cumm):
+  - Q1: 115000.00 | Q3: 228703.50 | IQR: 113703.50
+  - Lower cap: -55555.25 | Upper cap: 399258.75
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+MPV(fl):
+  - Q1: 8.90 | Q3: 10.28 | IQR: 1.38
+  - Lower cap: 6.83 | Upper cap: 12.35
+  - Values below lower: 0 | above upper: 0 (0.00% of rows)
+
+PDW(%):
+  - Q1: 14.22 | Q3: 16.41 | IQR: 2.19
+  - Lower cap: 10.93 | Upper cap: 19.71
+  - Values below lower: 1 | above upper: 0 (0.07% of rows)
+
+PCT(%):
+  - Q1: 0.11 | Q3: 0.17 | IQR: 0.07
+  - Lower cap: 0.01 | Upper cap: 0.27
+  - Values below lower: 38 | above upper: 5 (2.85% of rows)
+
+Total WBC count(/cumm):
+  - Q1: 4627.50 | Q3: 6134.00 | IQR: 1506.50
+  - Lower cap: 2367.75 | Upper cap: 8393.75
+  - Values below lower: 0 | above upper: 15 (0.99% of rows)
+
+Total values that will be capped (across all features): 221
+No rows will be dropped — every patient is retained.

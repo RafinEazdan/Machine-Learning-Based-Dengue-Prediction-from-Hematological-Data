@@ -1,0 +1,18 @@
+--- STDOUT ---
+Fitting 5 folds for each of 72 candidates, totalling 360 fits
+============================================================
+Random Forest - Best params: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}
+Random Forest - Best CV ROC-AUC: 0.8829
+Random Forest - Test accuracy: 0.7525
+Random Forest - Test ROC-AUC: 0.6463
+
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.66      0.41      0.51        94
+           1       0.77      0.90      0.83       209
+
+    accuracy                           0.75       303
+   macro avg       0.72      0.66      0.67       303
+weighted avg       0.74      0.75      0.73       303
+

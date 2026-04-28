@@ -1,0 +1,32 @@
+--- STDOUT ---
+================================================================================
+APPLYING SELECTED FEATURES TO TRAINING AND TEST DATA
+================================================================================
+Using 11 consensus features selected by feature selection methods:
+   1. remainder__x6
+   2. remainder__x7
+   3. remainder__x12
+   4. remainder__x16
+   5. remainder__x4
+   6. remainder__x3
+   7. remainder__x5
+   8. remainder__x17
+   9. remainder__x10
+  10. remainder__x13
+  11. remainder__x9
+
+Dataset transformation completed:
+  Original features: 19
+  Selected features: 11
+  Reduction: 8 features removed
+  Reduction percentage: 42.1%
+
+Updated data shapes:
+  X_train: (1652, 11)
+  X_test: (303, 11)
+  y_train: (1652,)
+  y_test: (303,)
+
+================================================================================
+READY FOR MODEL TRAINING WITH OPTIMIZED FEATURE SET
+================================================================================
